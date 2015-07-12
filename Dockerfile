@@ -28,4 +28,6 @@ RUN adduser --disabled-password --gecos "" dev \
 
 USER dev
 
+WORKDIR $HOME
+
 CMD [ "/bin/bash" ]
